@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guruprasad - Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="ambient-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container custom-container">
+            <a class="navbar-brand glow-text" href="index.html">&lt;Guruprasad/&gt;</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" style="border-color: var(--primary-accent);">
+                <i class="fas fa-bars" style="color: var(--primary-accent);"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="page-enter">
+        <section class="section-padding d-flex align-items-center" style="min-height: calc(100vh - 150px);">
+            <div class="container custom-container">
+                <div class="row align-items-center reverse-mobile">
+                    <div class="col-lg-7 text-center text-lg-start mb-5 mb-lg-0">
+                        <h4 class="text-gradient mb-3">Hello, I'm</h4>
+                        <h1 class="display-4 fw-bold mb-3 glow-text">Guruprasad</h1>
+                        <h3 class="h4 text-secondary mb-4">Aspiring AI/ML Engineer</h3>
+                        <p class="lead mb-5" style="max-width: 600px; margin: 0 auto 0 0;">
+                            Final-year BCA student with hands-on experience in Python, Machine Learning, and IoT systems. Seeking an entry-level AI/ML Engineer role where I can apply my project experience and grow in real-world AI development.
+                        </p>
+                        <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                            <a href="resume.html" class="btn-primary-custom"><i class="fas fa-file-alt me-2"></i>View Resume</a>
+                            <a href="contact.html" class="btn-secondary-custom"><i class="fas fa-envelope me-2"></i>Contact Me</a>
+                        </div>
+                        <div class="mt-5 d-flex gap-4 justify-content-center justify-content-lg-start">
+                            <a href="https://github.com/guru" target="_blank" class="nav-link fs-4"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/guru" target="_blank" class="nav-link fs-4"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="profile-img-container">
+                            <img src="WhatsApp Image 2026-05-08 at 7.17.09 AM.jpeg" alt="Guruprasad" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container custom-container">
+            <p class="mb-0 text-secondary">&copy; 2026 Guruprasad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        @media (max-width: 991px) {
+            .reverse-mobile {
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</body>
+</html>
